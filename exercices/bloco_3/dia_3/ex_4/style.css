@@ -1,0 +1,46 @@
+div {
+  padding: 4px;
+}
+
+div:hover {
+  padding: 2px;
+  border: 2px solid black;
+}
+
+h3 {
+  font-style: ;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.odd-div {
+  font-style: italic;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.large-div {
+  padding: 1.5em 4px;
+}
+
+.large-div:hover {
+  padding: 1.36em 2px;
+}
