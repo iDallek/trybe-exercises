@@ -1,0 +1,59 @@
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+ol li {
+  background-color: yellow;
+}
+
+.even-list {
+  background-color: green;
+}
+
+.prime-number-list{
+  text-transform: uppercase;
+}
+
+h1, h2, h3 {
+  color: red; 
+}
+
+h1, h2, h3 em{
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+.language-list {
+  color: blue;
+}
+.java {
+  background-color: pink;
+}
+
+.sta:hover {
+  background-color: orange;
+}
+
+.w3s:hover {
+  background-color: green;
+  color: white;
+}
+
+.mdn:hover {
+  background-color: black;
+  color: white;
+}
+
+.devd:hover {
+  background-color: yellow;
+
+}
+
+.tryb:hover {
+  background-color: green;
+  color: white;
+}
