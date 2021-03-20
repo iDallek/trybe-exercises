@@ -1,0 +1,41 @@
+h1, p {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+ol li {
+  padding: 5px;
+  width: 100px;
+  border-radius: 0 5px 5px 0;
+}
+
+ul li {
+  padding: 5px;
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: #383535;
+}
+
+ol li:hover {
+  background-color: #bbbbbb;
+  border: 1px solid #4d4747;
+  padding: 4px;
+}
+
+
+ul li:hover {
+  background-color: #bbbbbb;
+  border: 1px solid #4d4747;
+  padding: 4px;
+}
+
+li:active a{
+  color: white;
+  font-weight: bold;
+}
