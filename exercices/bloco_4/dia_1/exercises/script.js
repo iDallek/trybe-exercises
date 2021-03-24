@@ -39,5 +39,15 @@ if(num1 > num2 && num1 > num3){
 } else if(num3 > num1 && num3 > num2){
   console.log('O maior número representa a váriavel num3:',num3 + '.');
 } else {
-  console.log('Erro: Não foi possivel verificar qual o maior número.')
+  console.log('Erro: Não foi possivel verificar qual o maior número.');
+};
+
+let number = -27;
+
+if(number > 0){
+  console.log('positive');
+} else if(number < 0){
+  console.log('negative')
+} else {
+  console.log('zero')
 }
