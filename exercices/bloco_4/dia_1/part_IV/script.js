@@ -1,4 +1,4 @@
-let grade = 27
+let grade = 81
 
 if(grade >= 80){
   console.log('Parabéns, você foi aprovado(o)!')
