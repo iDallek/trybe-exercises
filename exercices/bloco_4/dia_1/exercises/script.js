@@ -51,3 +51,17 @@ if(number > 0){
 } else {
   console.log('zero')
 }
+
+let triangleAngleA = 27;
+let triangleAngleB = 54;
+let triangleAngleC = 99;
+
+let isTriangle;
+
+if(triangleAngleA + triangleAngleB + triangleAngleC === 180){
+  isTriangle = true;
+  console.log(isTriangle);
+} else {
+  isTriangle = false;
+  console.log(isTriangle);
+};
