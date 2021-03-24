@@ -21,11 +21,23 @@ let modolo;
 modolo = a % b;
 console.log('Resultado da módolo é:',modolo + '.');
 
-let num1 = 72
-let num2 = 45
+let num1 = 72;
+let num2 = 45;
 
 if(num1 > num2){
-  console.log('O maior número representa a váriavel num1:',num1 + '.')
+  console.log('O maior número representa a váriavel num1:',num1 + '.');
 } else {
-  console.log('O maior número representa a váriavel num2:',num2 + '.')
+  console.log('O maior número representa a váriavel num2:',num2 + '.');
+};
+
+let num3 = 27.54;
+
+if(num1 > num2 && num1 > num3){
+  console.log('O maior número representa a váriavel num1:',num1 + '.');
+} else if(num2 > num1 && num2 > num3){
+  console.log('O maior número representa a váriavel num2:',num2 + '.');
+} else if(num3 > num1 && num3 > num2){
+  console.log('O maior número representa a váriavel num3:',num3 + '.');
+} else {
+  console.log('Erro: Não foi possivel verificar qual o maior número.')
 }
