@@ -1,4 +1,4 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27,];
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 console.log(numbers);
 
@@ -68,3 +68,14 @@ if(quantityOfOddNumbers === 0){
 }
 
 console.log('A quantidade de números ímpares são:', quantityOfOddNumbers);
+
+let arrayLowestNumber = Infinity;
+
+for(let index = 0; index < numbers.length; index += 1) {
+  let arrayNumber = numbers[index];
+  if(arrayNumber < arrayLowestNumber){
+    arrayLowestNumber = arrayNumber;
+  } else {}
+}
+
+console.log(arrayLowestNumber)
