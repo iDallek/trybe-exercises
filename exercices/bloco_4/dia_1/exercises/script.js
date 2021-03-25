@@ -134,3 +134,11 @@ if(numberCheck1 % 2 > 0 && numberCheck2 % 2 > 0 && numberCheck3 % 2 > 0){
   numbersCheckedOneIsEven = true;
   console.log(numbersCheckedOneIsEven);
 };
+
+if(numberCheck1 % 2 === 0 && numberCheck2 % 2 === 0 && numberCheck3 % 2 === 0){
+  numbersCheckedOneIsEven = false;
+  console.log(numbersCheckedOneIsEven);
+} else {
+  numbersCheckedOneIsEven = true;
+  console.log(numbersCheckedOneIsEven);
+};
