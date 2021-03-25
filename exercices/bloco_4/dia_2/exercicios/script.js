@@ -30,3 +30,26 @@ for(let index = 0; index < numbers.length; index += 1) {
 }
 
 console.log(arrayHighestNumber)
+
+// Ficando horas tentando resolver e só agora ví que era numeros impares ao envez de numeros primos (Não quero apagar mesmo que não tenha conseguido concluir).
+
+/*
+let quantityOfPrimeNumbers = 0;
+
+for(let index = 0; index < numbers.length; index += 1) {
+  let arrayNumber = numbers[index];
+  let isPrimeNumber;
+  for(let i = 2; i < arrayNumber; i += 1) {
+    if(arrayNumber % i === 0){
+      isPrimeNumber = true;
+    } else {
+      isPrimeNumber = false;
+    }
+  }
+  if(isPrimeNumber === true){
+    quantityOfPrimeNumbers +=1;
+  } else {} 
+}
+
+console.log('A quantidade de numeros primos são:', quantityOfPrimeNumbers);
+*/
