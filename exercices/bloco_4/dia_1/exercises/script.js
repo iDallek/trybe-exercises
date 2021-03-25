@@ -119,4 +119,18 @@ if(studentGradeNumber > 100 || studentGradeNumber < 0){
 } else {
   studentGradeLetter = 'F';
   console.log('Nota do aluno:', studentGradeLetter + '.');
-}
+};
+
+let numberCheck1 = 27;
+let numberCheck2 = 54;
+let numberCheck3 = 72;
+
+let numbersCheckedOneIsEven;
+
+if(numberCheck1 % 2 > 0 && numberCheck2 % 2 > 0 && numberCheck3 % 2 > 0){
+  numbersCheckedOneIsEven = false;
+  console.log(numbersCheckedOneIsEven);
+} else {
+  numbersCheckedOneIsEven = true;
+  console.log(numbersCheckedOneIsEven);
+};
