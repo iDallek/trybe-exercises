@@ -95,3 +95,7 @@ switch(chessPiece){
   default: 
     console.log('ERRO: Peça não identificada.')
 } 
+
+let studentGradeNumber = 27;
+let studentGradeLetter;
+
