@@ -79,3 +79,13 @@ for(let index = 0; index < numbers.length; index += 1) {
 }
 
 console.log(arrayLowestNumber)
+
+let arrayExercise = [];
+let number = 0;
+
+for(let i = 0; i < 25; i += 1){
+  number += 1;
+  arrayExercise.push(number);
+}
+
+console.log(arrayExercise)
