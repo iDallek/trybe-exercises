@@ -99,3 +99,24 @@ switch(chessPiece){
 let studentGradeNumber = 27;
 let studentGradeLetter;
 
+if(studentGradeNumber > 100 || studentGradeNumber < 0){
+  console.log('ERRO: Nota inválida.');
+} else if(studentGradeNumber >= 90){
+  studentGradeLetter = 'A';
+  console.log('Nota do aluno:', studentGradeLetter + '.');
+} else if(studentGradeNumber >= 80){
+  studentGradeLetter = 'B';
+  console.log('Nota do aluno:', studentGradeLetter + '.');
+} else if(studentGradeNumber >= 70){
+  studentGradeLetter = 'C';
+  console.log('Nota do aluno:', studentGradeLetter + '.');
+} else if(studentGradeNumber >= 60){
+  studentGradeLetter = 'D';
+  console.log('Nota do aluno:', studentGradeLetter + '.');
+} else if(studentGradeNumber >= 50){
+  studentGradeLetter = 'E';
+  console.log('Nota do aluno:', studentGradeLetter + '.');
+} else {
+  studentGradeLetter = 'F';
+  console.log('Nota do aluno:', studentGradeLetter + '.');
+}
