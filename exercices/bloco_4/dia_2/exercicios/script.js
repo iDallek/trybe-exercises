@@ -89,3 +89,11 @@ for(let i = 0; i < 25; i += 1){
 }
 
 console.log(arrayExercise)
+
+let arrayDividedByTwo = [];
+
+for(let i = 0; i < arrayExercise.length; i += 1){
+  arrayDividedByTwo.push(arrayExercise[i] / 2);
+}
+
+console.log(arrayDividedByTwo)
