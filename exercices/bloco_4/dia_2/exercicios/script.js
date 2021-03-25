@@ -19,3 +19,14 @@ if(arrayArithmeticAverage > 20){
 } else {
   console.log('Valor menor ou igual a 20');
 }
+
+let arrayHighestNumber = 0;
+
+for(let index = 0; index < numbers.length; index += 1) {
+  let arrayNumber = numbers[index];
+  if(arrayNumber > arrayHighestNumber){
+    arrayHighestNumber = arrayNumber;
+  } else {}
+}
+
+console.log(arrayHighestNumber)
