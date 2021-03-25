@@ -13,3 +13,9 @@ console.log(arrayCount);
 let arrayArithmeticAverage = arrayCount / numbers.length
 
 console.log(arrayArithmeticAverage);
+
+if(arrayArithmeticAverage > 20){
+  console.log('Valor maior que 20');
+} else {
+  console.log('Valor menor ou igual a 20');
+}
