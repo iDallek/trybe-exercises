@@ -40,3 +40,24 @@ function returnLowestValueIndex(numbers) {
 }
 
 console.log(returnLowestValueIndex(arrayNumbers));
+
+////////////////////////////////
+
+let arrayNames = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+
+/**Source: https://stackoverflow.com/questions/52411850/find-longest-string-in-array */
+function returnLongestName(arr) {
+  let longest = arr[0];
+
+  for(let i = 1; i < arr.length; i++) {
+    if (arr[i].length > longest.length) {
+      longest = arr[i];
+    }
+  }
+  
+  return longest;
+}
+
+console.log(returnLongestName(arrayNames));
+
+////////////////////////////////
