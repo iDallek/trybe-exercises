@@ -25,7 +25,18 @@ function returnHighestValueIndex(numbers) {
   /** Source: https://stackoverflow.com/questions/11301438/return-index-of-greatest-value-in-an-array/11301464 */  
   let highestIndex = numbers.indexOf(Math.max(...numbers));
   
-  return highestIndex
+  return highestIndex;
 }
 
-console.log(returnHighestValueIndex(arrayNumbers))
+console.log(returnHighestValueIndex(arrayNumbers));
+
+////////////////////////////////
+
+function returnLowestValueIndex(numbers) {
+
+  let lowestIndex = numbers.indexOf(Math.min(...numbers));
+  
+  return lowestIndex;
+}
+
+console.log(returnLowestValueIndex(arrayNumbers));
