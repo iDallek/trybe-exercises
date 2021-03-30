@@ -49,7 +49,7 @@ let arrayNames = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
 function returnLongestName(arr) {
   let longest = arr[0];
 
-  for(let i = 1; i < arr.length; i++) {
+  for(let i = 1; i < arr.length; i += 1) {
     if (arr[i].length > longest.length) {
       longest = arr[i];
     }
@@ -61,3 +61,27 @@ function returnLongestName(arr) {
 console.log(returnLongestName(arrayNames));
 
 ////////////////////////////////
+
+let arrayTest = [2, 3, 2, 5, 8, 2, 3]; 
+
+/** Source: https://stackoverflow.com/questions/59065687/how-to-get-most-frequent-occurring-element-in-an-array*/
+function returnMostRepeatedNumber(arr) {
+  let max = arr[0];
+  let counter = {};
+  let element;
+
+  for (let i = arr.length; i >= 0; i -= 1) {
+    element = arr[i];
+
+    if (!counter[element]){
+      counter[element] = 0;
+    }
+
+    if (counter[max] < counter[element]) {
+      max = element;
+    }
+  }
+  return max;
+}
+
+console.log(returnMostRepeatedNumber(arrayTest));
