@@ -61,7 +61,15 @@
         return container.style.backgroundColor = 'white';
       }
 
-      changeCenterContainerBackgroundColor()
+      changeCenterContainerBackgroundColor();
+
+      function correctsHeroTitle() {
+        let title = document.getElementsByClassName('title')[0];
+        return title.innerText = "Exercício 5.1 - JavaScript";
+      }
+
+      correctsHeroTitle();
+
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
