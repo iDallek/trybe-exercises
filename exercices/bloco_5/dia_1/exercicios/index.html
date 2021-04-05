@@ -48,7 +48,7 @@
       }
 
       changeText('Daqui a 2 anos, consectetur adipiscing elit. Aliquam fermentum nisl semper, auctor erat eget, aliquet sem. Maecenas consectetur pulvinar ultrices. Maecenas lectus dui, efficitur sit amet velit quis, consequat ullamcorper justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et dignissim risus, a lobortis magna. Sed fringilla nibh in metus pharetra elementum. Nulla efficitur pulvinar massa mollis venenatis. In vel lorem nulla.')
-
+      
       function changeMainContainerBackgroundColor() {
         let container = document.getElementsByClassName('main-content')[0];
         return container.style.backgroundColor = 'rgb(76,164,109)';
@@ -56,6 +56,12 @@
 
       changeMainContainerBackgroundColor();
 
+      function changeCenterContainerBackgroundColor() {
+        let container = document.getElementsByClassName('center-content')[0];
+        return container.style.backgroundColor = 'white';
+      }
+
+      changeCenterContainerBackgroundColor()
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
