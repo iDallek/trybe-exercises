@@ -77,6 +77,14 @@
 
       changeTextToUppercase();
 
+      function showTagInConsole() {
+        let text = document.getElementsByTagName('p')
+        for (let i = 0; i < text.length; i += 1) {
+          console.log(text[i].innerText)
+        }
+      }
+
+      showTagInConsole();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
