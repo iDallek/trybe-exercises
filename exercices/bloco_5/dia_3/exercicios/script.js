@@ -48,3 +48,13 @@ for (let index = 0; index < dezDaysList.length; index += 1) {
 
   document.querySelector('#days').appendChild(daysListItem)
 }
+
+function btnHoliday(Feriados) {
+  let button = document.createElement('button');
+  button.innerText = 'Feriados';
+  button.id = 'btn-holiday';
+
+  document.querySelector('.buttons-container').appendChild(button);
+}
+
+btnHoliday()
