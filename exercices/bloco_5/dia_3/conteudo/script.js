@@ -17,6 +17,16 @@ function changeTextElement () {
 
 input.addEventListener('change', changeTextElement);
 
+function changeTitleColor () {
+  if (myWebpage.style.color === 'white') {
+    myWebpage.style.color = 'red';
+  } else {
+    myWebpage.style.color = 'white';
+  }
+}
+
+myWebpage.addEventListener('click', changeTitleColor);
+
 /*
 1. Copie esse arquivo e edite apenas ele;
 
