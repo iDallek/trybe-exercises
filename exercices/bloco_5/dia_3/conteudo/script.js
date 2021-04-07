@@ -4,6 +4,10 @@ const divTres = document.getElementById('divTres');
 const input = document.getElementById('input');
 const myWebpage = document.getElementById('mySpotrybefy');
 
+function putClassTech (element) {
+  element.className = 'tech';
+}
+
 /*
 1. Copie esse arquivo e edite apenas ele;
 
