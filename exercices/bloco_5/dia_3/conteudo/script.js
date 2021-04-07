@@ -17,15 +17,30 @@ function changeTextElement () {
 
 input.addEventListener('change', changeTextElement);
 
-function changeTitleColor () {
-  if (myWebpage.style.color === 'white') {
+function changeClickTitleColor () {
+  if (myWebpage.style.color === 'blue') {
     myWebpage.style.color = 'red';
   } else {
-    myWebpage.style.color = 'white';
+    myWebpage.style.color = 'blue';
   }
 }
 
-myWebpage.addEventListener('click', changeTitleColor);
+myWebpage.addEventListener('click', changeClickTitleColor);
+
+
+function changeMouseOverTitleColor () {
+  myWebpage.style.color = 'blue';
+}
+
+function changeMouseLeaveTitleColor () {
+  myWebpage.style.color = 'white';
+}
+
+myWebpage.addEventListener('mouseover', changeMouseOverTitleColor);
+
+myWebpage.addEventListener('mouseleave', changeMouseLeaveTitleColor);
+
+
 
 /*
 1. Copie esse arquivo e edite apenas ele;
