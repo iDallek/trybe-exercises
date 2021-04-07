@@ -5,8 +5,17 @@ const input = document.getElementById('input');
 const myWebpage = document.getElementById('mySpotrybefy');
 
 function putClassTech (element) {
+  if(document.querySelector('.tech')){
+    document.querySelector('.tech').classList.remove('tech');
+  }
   element.className = 'tech';
 }
+
+function changeTextElement () {
+  document.querySelector('.tech').innerText = input.value;
+}
+
+input.addEventListener('change', changeTextElement);
 
 /*
 1. Copie esse arquivo e edite apenas ele;
