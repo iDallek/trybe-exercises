@@ -25,29 +25,29 @@ for (let index = 0; index < dezDaysList.length; index += 1) {
 
   if (index - 1 === 24) {
     daysListItem.classList.add('holiday');
-  }
+  };
   if (index - 1 === 25) {
     daysListItem.classList.add('holiday');
-  }
+  };
   if (index - 1 === 31) {
     daysListItem.classList.add('holiday');
-  }
+  };
 
   if (index - 1 === 4) {
     daysListItem.classList.add('friday');
-  }
+  };
   if (index - 1 === 11) {
     daysListItem.classList.add('friday');
-  }
+  };
   if (index - 1 === 18) {
     daysListItem.classList.add('friday');
-  }
+  };
   if (index - 1 === 25) {
     daysListItem.classList.add('friday');
-  }
+  };
 
-  document.querySelector('#days').appendChild(daysListItem)
-}
+  document.querySelector('#days').appendChild(daysListItem);
+};
 
 function btnHoliday(Feriados) {
   let button = document.createElement('button');
@@ -55,6 +55,8 @@ function btnHoliday(Feriados) {
   button.id = 'btn-holiday';
 
   document.querySelector('.buttons-container').appendChild(button);
-}
+};
 
-btnHoliday()
+btnHoliday();
+
+
