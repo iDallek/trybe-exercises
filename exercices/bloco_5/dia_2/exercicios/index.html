@@ -88,6 +88,17 @@
       smallImage.className = 'small-image';
       document.querySelector('.left-content').appendChild(smallImage);
 
+      let unorderedList = document.createElement('ul')
+      unorderedList.className = 'unorderedList';
+      document.querySelector('.right-content').appendChild(unorderedList);
+
+      for (let index = 1; index <= 10; index += 1);{
+        let unorderedListItems = document.createElement('li');
+        unorderedListItems.innerText = 'a';
+        document.querySelector('.unorderedList').appendChild(unorderedListItems);
+      }
+      
+
     </script>
   </body>
 </html>
