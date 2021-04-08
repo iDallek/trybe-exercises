@@ -59,4 +59,14 @@ function btnHoliday(Feriados) {
 
 btnHoliday();
 
+let holidayButton = document.querySelector('#btn-holiday');
 
+holidayButton.addEventListener('click', function () {
+  for (let index = 0; index < document.querySelectorAll('.holiday').length; index += 1) {
+    let holiday = document.querySelectorAll('.holiday');
+
+    holiday[index].style.backgroundColor = 'white';
+    if (holiday[index].style.backgroundColor === 'white') {
+    };
+  };
+});
