@@ -1,8 +1,7 @@
 .text-container {
-  background-color: #2b2d42;
+  margin: auto;
 }
 
 .text {
   padding: 15px;
-  color: #f7f7ff;
 }
