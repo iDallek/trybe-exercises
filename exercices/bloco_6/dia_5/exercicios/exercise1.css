@@ -13,9 +13,23 @@ h2 {
 
 img {
   max-width: 100%;
-  margin: 10px 0 30px 0;
 }
 
 figure {
-    margin: 0;
+  margin: 10px 0 30px 0;
 }
+
+@media screen and (min-width: 800px) {
+  .cat-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  figure {
+    flex-basis: 45%;
+    margin: 10px 15px 30px 15px;
+  }
+  
+}
+
