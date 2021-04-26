@@ -10,3 +10,14 @@ const toFactorial = num => {
 }
 
 console.log(`O fatorial de ${num}! é: ${toFactorial(num)}`);
+
+//Exercício 2
+const longestWord = str => {
+  let strSplit = str.split(' ');
+
+  let longestWord = strSplit.sort((a, b) => b.length - a.length);
+
+  return longestWord[0]
+}
+
+console.log(longestWord("Antônio foi no banheiro e não sabemos o que aconteceu"))
