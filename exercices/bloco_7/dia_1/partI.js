@@ -31,7 +31,7 @@ testingScope2(false);
 //Exercício 2
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
-// Source link: https://medium.com/coding-at-dawn/how-to-sort-an-array-numerically-in-javascript-2b22710e3958#:~:text=Use%20.&text=sort()%20method%20needs%20to,second%20item%20from%20the%20first.
+// Source link: https://medium.com/coding-at-dawn/how-to-sort-an-array-numerically-in-javascript-2b22710e3958
 const sortOddsAndEvens = (arr) => arr.sort((a,b) => a-b );
 
 console.log(`Os números ${sortOddsAndEvens(oddsAndEvens)} se encontram ordenados de forma crescente!`);
