@@ -13,17 +13,15 @@ const sumArrPromise = () => {
     const arr = getArrWith10RandomsNumbers();
     const sumArr = arr.reduce((a, b) => a + b, 0)
 
-    console.log(sumArr)
-
     sumArr < 8000 ? resolve(sumArr) : reject();
   });
 
   myPromise
-      .then((response) => {
-      console.log('=) Promise resolvida')
-      return [2, 3, 5, 10].map((num) => Math.round(response / num));
-    })
-    .catch(() => console.log('=( Promise rejeitada'));
+    .then((response) => (
+      [2, 3, 5, 10].map((num) => Math.round(response / num))
+    ))
+    .then((array) => array.reduce((num, acc) => num + acc, 0))
+    .catch(() => console.log('É mais de oito mil! Essa promise deve estar quebrada!'));
 }
 
-console.log(sumArrPromise());
+sumArrPromise();
