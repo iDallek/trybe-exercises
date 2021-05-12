@@ -15,12 +15,15 @@ const sumArrPromise = () => {
 
     console.log(sumArr)
 
-    sumArr < 8000 ? resolve() : reject();
+    sumArr < 8000 ? resolve(sumArr) : reject();
   });
 
   myPromise
-    .then(() => console.log('=) Promise resolvida'))
+      .then((response) => {
+      console.log('=) Promise resolvida')
+      return [2, 3, 5, 10].map((num) => Math.round(response / num));
+    })
     .catch(() => console.log('=( Promise rejeitada'));
 }
 
-sumArrPromise();
+console.log(sumArrPromise());
